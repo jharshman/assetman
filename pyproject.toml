@@ -21,9 +21,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-  "boto3==1.34.15",
-  "botocore==1.34.15",
-  "tornado==6.3.3",
+  "boto3>=1.34.15",
+  "botocore>=1.34.15",
+  "tornado>=6.3.3",
 ]
 
 [project.scripts]
