@@ -20,11 +20,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-packages = [
-  "assetman",
-  "assetman/parsers",
-  "assetman/tornadoutils",
-]
 dependencies = [
   "aadict==0.2.3",
   "asgiref==3.7.2",
@@ -50,4 +45,8 @@ dependencies = [
 
 [project.scripts]
 assetman_compile = "assetman:assetman_compile"
+
+[tool.setuptools.packages.find]
+where = ["assetman"]
+namespaces = false
 
