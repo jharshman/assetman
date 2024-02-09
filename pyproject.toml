@@ -22,7 +22,6 @@ classifiers = [
 ]
 dependencies = [
   "boto3>=1.34.15",
-  "botocore>=1.34.15",
   "tornado>=6.3.3",
 ]
 
